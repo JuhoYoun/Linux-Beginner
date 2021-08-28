@@ -1,1 +1,3 @@
-
+clear : clear screen
+date : date of today
+cal : calender
