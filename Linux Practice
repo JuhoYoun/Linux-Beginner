@@ -4,3 +4,10 @@ cal : calender of this month
 cal 2030 : calender of 2030
 cal 9 2021 : calender of september in 2021
 cal 2021 9 -> Do not work
+cal -y : calender of this year
+cal -B 2 : show calender from two months before to this month
+cal -A 2 : show calender from this month to two months after
+cal -B 2 -A 2 == cal -A 2 -B 2
+cal -j : date is count from January 1st
+cal -jA 2 -B 2 == -A 2 -jB 2
+Cal -Aj 2 -B 2 : Do Not Work
