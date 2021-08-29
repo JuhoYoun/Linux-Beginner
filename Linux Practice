@@ -19,3 +19,12 @@ On the manual -> space : go down 1 page, b : go up 1 page, q : quit manual and g
 
 2. Directory
 
+~ (tilde) : Home directory of current user
+pwd : Print the name of Working Directory, Print current directory
+print result -> /Users/jutlo : the first '/' is the root directory
+
+cd : Change Directory, change current directory
+cd /Users/jutlo/Pictures
+pwd
+-> print result : /Users/jutlo/Pictures
+
