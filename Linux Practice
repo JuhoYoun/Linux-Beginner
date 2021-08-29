@@ -28,3 +28,13 @@ cd /Users/jutlo/Pictures
 pwd
 -> print result : /Users/jutlo/Pictures
 
+cd ~
+change to home directory again
+and
+cd /Users/jutlo/Pictures == cd ./Pictures : '.' means current directory
+
+Let's keep going
+
+cd ../Documents : '..' means the parent directory of current directory
+pwd 
+-> print result : /Users/jutlo/Documents
