@@ -1,3 +1,5 @@
+1. Argument and Option
+
 clear : clear screen
 date : date of today
 cal : calender of this month
@@ -10,4 +12,10 @@ cal -A 2 : show calender from this month to two months after
 cal -B 2 -A 2 == cal -A 2 -B 2
 cal -j : date is count from January 1st
 cal -jA 2 -B 2 == -A 2 -jB 2
-Cal -Aj 2 -B 2 : Do Not Work
+cal -Aj 2 -B 2 : Do Not Work
+cal -h : unhighlight today
+man cal : manual of cal
+On the manual -> space : go down 1 page, b : go up 1 page, q : quit manual and go back
+
+2. Directory
+
