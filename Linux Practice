@@ -38,3 +38,15 @@ Let's keep going
 cd ../Documents : '..' means the parent directory of current directory
 pwd 
 -> print result : /Users/jutlo/Documents
+
+When change to child directory of current directory -> cd Pictures == cd ./Pictures
+
+cd / : change directory to root directory
+cd ~ : change directory to home directory
+cd - : change directory to previous directory
+
+ls : show the list of child directories and files in the current directory
+ls -l : long list format -> more detailed info
+ls -a : all -> show all the hidden directories and hidden files
+* ls command doesn't show the files or directories whose name start with '.' (hidden) -> -a option let ls command show hidden directories and files whose name start with '.'
+* Usually files that is not to be modified are hidden
