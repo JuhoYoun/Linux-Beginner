@@ -72,3 +72,6 @@ mkdir parent/child : (parent directory was created with the command above) make 
 
 touch : make a new file in the current directory 
 touch test : make test file in the current directory
+
+mv : move file or directory
+mv test child : move test file in the current directory to child directory in the current directory
