@@ -65,3 +65,9 @@ The left-most column of long list format can tell the type of files :
 소켓 / s
 파이프 / p
 심볼릭 링크 / l
+
+mkdir : make a new directory in the current directory
+mkdir parent : make parent directory in the current directory
+mkdir parent/child : (parent directory was created with the command above) make child directory in the parent directory
+
+touch : make a new file in the current directory 
