@@ -71,3 +71,4 @@ mkdir parent : make parent directory in the current directory
 mkdir parent/child : (parent directory was created with the command above) make child directory in the parent directory
 
 touch : make a new file in the current directory 
+touch test : make test file in the current directory
