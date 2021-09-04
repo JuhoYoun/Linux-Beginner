@@ -50,3 +50,8 @@ ls -l : long list format -> more detailed info
 ls -a : all -> show all the hidden directories and hidden files
 * ls command doesn't show the files or directories whose name start with '.' (hidden) -> -a option let ls command show hidden directories and files whose name start with '.'
 * Usually files that is not to be modified are hidden
+
+ls .viminfo : show only .viminfo in the current directory
+ls -l .viminfo : long list format of .viminfo
+ls -l Pictures : long list format of files in Pictures directory which is in the current directory
+ls -l -d Pictures : long list format of Pictures directory itself
