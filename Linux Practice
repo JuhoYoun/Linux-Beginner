@@ -55,3 +55,13 @@ ls .viminfo : show only .viminfo in the current directory
 ls -l .viminfo : long list format of .viminfo
 ls -l Pictures : long list format of files in Pictures directory which is in the current directory
 ls -l -d Pictures : long list format of Pictures directory itself
+
+The left-most column of long list format can tell the type of files :
+파일 종류	/ 문자
+일반 파일	/ -
+디렉토리 / d
+캐릭터 장치 / 파일	c
+블록 장치 파일 / b
+소켓 / s
+파이프 / p
+심볼릭 링크 / l
