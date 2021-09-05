@@ -119,3 +119,12 @@ mv dir DEST
 그럼 여기서 잠깐 어려운 퀴즈를 하나 내볼게요. DEST가 이미 존재하는 파일의 이름이라면 어떻게 될까요? 이렇게 되면 에러 메시지가 출력되면서 아무 동작도 일어나지 않습니다. 왜냐하면 하나의 디렉토리 안에는 같은 이름의 것들이 존재할 수 없기 때문입니다. 직접 확인해보세요.
 
 mv 커맨드가 어떻게 동작하는지 살펴봤는데요. 직접 여기 나온 설명대로 디렉토리와 파일을 만들어서 환경을 조성해보고 연습해보세요. 디렉토리와 파일을 다루는 데 더 능숙해질 수 있을 겁니다.
+
+
+cp : cpoy
+cp first second : copy first file in current directory and create a same file named as second in current directory
+
+* ls ~ : list home directory 
+
+cp ~/.viminfo second : copy .viminfo in home directory and create a same file named as second in current directory
+cp -i ~/.vininfo second : (interactive) ask before overwritting 
