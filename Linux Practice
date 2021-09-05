@@ -154,3 +154,9 @@ less twice : print twice in the other window
 less twice zico : print twice and zico but not together
 * :n -> go to next file
 * :p -> go to previous file
+
+head zico : print first 10 lines of zico file
+head -n 20 zico : print first 20 lines of zico file
+
+tail zico : print the last 10 lines of zico file
+tail -n 30 zico : print the last 30 lines of zico file
