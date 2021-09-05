@@ -173,3 +173,12 @@ ex) m + tab -> music
 if there is more than one file or tab start with m
 ex) m + tab -> do nothing 
 ex) m + tab x 2 -> show the list of file names start with m
+
+ctrl + a : 커서를 맨 앞으로 이동
+ctrl + e : 커서를 맨 뒤로 이동
+clear : 청소하다~
+
+mkdir happy programming -> create two directories happy and programming
+mkdir 'happy programming' -> create happy programming directory
+
+4. Vim text editor
