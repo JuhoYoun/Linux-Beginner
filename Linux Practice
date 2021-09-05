@@ -75,3 +75,9 @@ touch test : make test file in the current directory
 
 mv : move file or directory
 mv test child : move test file in the current directory to child directory in the current directory
+mv test .. : move test to parent directory of current directory, Use relative path
+mv test /Users/Jutlo : Can also use absolute path 
+
+mv : can also change name of file or directory
+mv test sample : change the name of test file to sample
+mv child kid : change the name of child directory to kid
