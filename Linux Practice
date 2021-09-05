@@ -182,3 +182,9 @@ mkdir happy programming -> create two directories happy and programming
 mkdir 'happy programming' -> create happy programming directory
 
 4. Vim text editor
+ normal mode / insert mode / visual mode / command mode 
+ 커서 이동    / 텍스트 입력    / 텍스트 블록 지정 / 내용 저장
+ 텍스트 붙혀놓기 /            / 텍스트 복사     / Vim 종료
+ 텍스트 삭제 /               /              / 특정 텍스트 검색 및 치환
+ 작업 취소  /                /             / 
+ -> 모드별 기본적 기능들 
