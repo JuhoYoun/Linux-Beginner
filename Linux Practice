@@ -128,3 +128,12 @@ cp first second : copy first file in current directory and create a same file na
 
 cp ~/.viminfo second : copy .viminfo in home directory and create a same file named as second in current directory
 cp -i ~/.vininfo second : (interactive) ask before overwritting 
+
+cp child baby : (child is directory) error -> child is a directory (not copied) -> not copied because directory has files or directories inside
+cp -r child baby : (r : recursive) copy all the files and directories inside each directory recursively -> child directory is copied
+
+rm : remove a file or directory
+rm second : remove second file
+rm baby : error -> baby is a directory
+rm -r baby : remove all files and directories in baby directoy recursively
+rm -r -i baby : ask before removing each file. If at least a file remains in the directory, baby directory is not removed.
