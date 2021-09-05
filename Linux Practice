@@ -188,3 +188,14 @@ mkdir 'happy programming' -> create happy programming directory
  텍스트 삭제 /               /              / 특정 텍스트 검색 및 치환
  작업 취소  /                /             / 
  -> 모드별 기본적 기능들 
+ 
+* Vim 은 시작할 때 normal mode
+* 다른 모드로 전환하려면 normal mode를 거쳐야한다
+* esc를 누르면 normal mode로 전환
+* normal mode -> insert mode : a/A i/I o/O
+* normal mode -> visual mode : v/V
+* normal mode -> command mode : : / (:랑 /)
+
+Insert Mode
+* press a key on normal mode -> 커서를 한 칸 뒤로 옮기고 입력 모드로 전환 (append)
+* press i key on normal mode -> 그냥 입력 모드로 전환
