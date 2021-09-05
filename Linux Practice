@@ -160,3 +160,16 @@ head -n 20 zico : print first 20 lines of zico file
 
 tail zico : print the last 10 lines of zico file
 tail -n 30 zico : print the last 30 lines of zico file
+
+3. 커맨드를 자유자재로~
+
+위 아래 방향키를 누르면 최근에 썼던 커맨드들을 볼수 있다 -> 커맨드 재사용 가능
+
+history : print the history of command used before -> each command used is labeled with a number -> can use command again with !number 
+
+tab key -> autocomplete the name of file or directory in current directory
+ex) m + tab -> music
+
+if there is more than one file or tab start with m
+ex) m + tab -> do nothing 
+ex) m + tab x 2 -> show the list of file names start with m
