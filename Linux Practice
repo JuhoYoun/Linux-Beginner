@@ -137,3 +137,20 @@ rm second : remove second file
 rm baby : error -> baby is a directory
 rm -r baby : remove all files and directories in baby directoy recursively
 rm -r -i baby : ask before removing each file. If at least a file remains in the directory, baby directory is not removed.
+
+cat : concatenate 이어 붙이다 -> 파일들의 내용을 이어붙이다 -> 파일들 내용 이어서 출력
+cat twice : print twice file
+cat twice zico : print twice file and then print zico file
+
+less twice : print twice in the other window
+* down arrow key -> go down
+* up arrow key -> go up
+* space bar key -> go down one page
+* b -> go up one page
+* G -> go to the last part
+* g -> go to the first part
+* q -> quit
+
+less twice zico : print twice and zico but not together
+* :n -> go to next file
+* :p -> go to previous file
