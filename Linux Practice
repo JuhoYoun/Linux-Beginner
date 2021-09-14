@@ -201,3 +201,5 @@ Insert Mode
 * press i key on normal mode -> 그냥 입력 모드로 전환
 * press I key on normal mode -> 커서를 가장 첫번째 칸으로 이동하고 입력 모드로 전환
 * press A key on normal mode -> 커서를 가장 마지막 칸으로 이동하고 입력 모드로 전환
+* press o key on normal mode -> 커서를 다음 줄로 옮기고 입력 모드로 전환
+* press O key on normal mode -> 커서 위에 빈 줄이 생기고 입력 모드로 전환
