@@ -206,5 +206,7 @@ Insert Mode
 
 Command Mode
 * Press : -> 명령 모드로 전환
-* :w practice -> 현재 텍스트들을 practice라는 파일로 저장
+* :w practice -> 현재 텍스트들을 현재 경로에 practice라는 파일로 저장
 * :q -> quit VIM
+* vim practice -> 현재 파일에 저장된 있는 practice 파일을 연다
+* :w -> vim practice로 연 파일을 수정 후 다시 저장할 때는 :w만 써도 된다. (practice파일은 이미 생성되어 저장되 있었기 때문에)
