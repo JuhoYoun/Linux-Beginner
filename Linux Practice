@@ -210,3 +210,5 @@ Command Mode
 * :q -> quit VIM
 * vim practice -> 현재 파일에 저장된 있는 practice 파일을 연다
 * :w -> vim practice로 연 파일을 수정 후 다시 저장할 때는 :w만 써도 된다. (practice파일은 이미 생성되어 저장되 있었기 때문에)
+* :wq -> 저장과 함께 vim 종료
+* :q! -> 변경된 내용을 저장하지 않고 vim 종료 (파일 변경 후 :q를 하면 에러 메세지와 함께 vim을 종료하지 못한다)
