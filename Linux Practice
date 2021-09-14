@@ -203,3 +203,8 @@ Insert Mode
 * press A key on normal mode -> 커서를 가장 마지막 칸으로 이동하고 입력 모드로 전환
 * press o key on normal mode -> 커서를 다음 줄로 옮기고 입력 모드로 전환
 * press O key on normal mode -> 커서 위에 빈 줄이 생기고 입력 모드로 전환
+
+Command Mode
+* Press : -> 명령 모드로 전환
+* :w practice -> 현재 텍스트들을 practice라는 파일로 저장
+* :q -> quit VIM
