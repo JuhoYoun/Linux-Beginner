@@ -212,3 +212,9 @@ Command Mode
 * :w -> vim practice로 연 파일을 수정 후 다시 저장할 때는 :w만 써도 된다. (practice파일은 이미 생성되어 저장되 있었기 때문에)
 * :wq -> 저장과 함께 vim 종료
 * :q! -> 변경된 내용을 저장하지 않고 vim 종료 (파일 변경 후 :q를 하면 에러 메세지와 함께 vim을 종료하지 못한다)
+* Press / -> 명령모드인데 쓸 수 있는 명령어가 다르다 (ex search)
+* /like + enter -> 첫번째 like 위치로 간다 -> n -> 그 다음 like 위치로 간다 -> 만약 n말고 N을 입력하면 ->이 전의 like 위치로 간다
+* :s/like/love -> 가장 첫번째 like를 love로 바꾼다 (s : substitue)
+* :%s/like/love -> 각 줄의 가장 첫번째 like를 love로 바꾼다
+* :%s/like/lovel/g -> 각 줄의 모든 like를 love로 바꾼다 (g : global)
+* :%s/like/love/gc -> c 옵션을 추가하면 각각의 like를 love로 치환하기 전에 물어본다 (c : confirm)
