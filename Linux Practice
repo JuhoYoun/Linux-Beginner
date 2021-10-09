@@ -269,6 +269,7 @@ Visual Mode
 * brew install wget : Wget설치 명령어 -> 난 왜 설치가 안되지 ㅠㅠ 
 * wget www.naver.com : naver 소스 코드를 가져온다 -> index.html에 저장된다 
 * brew uninstall wget : Wget 삭제
+* brew doctor : troubleshooting
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
   이전 영상에서 우분투에서 외부 프로그램인 crack-attack을 설치할 때
